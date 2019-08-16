@@ -118,7 +118,7 @@ client2.on('message', message => {
  
  
  
-if (command == "حول") {
+if (command == "تحدث") {
 let rank = message.guild.member(message.author).roles.find('name', 'vipesmael');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
